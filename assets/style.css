@@ -157,3 +157,17 @@ h3{font-size:34px;font-weight:600;letter-spacing:-.03em}
 .mesh-vis{padding:18px}
 .pv-img{width:100%}.card-ui.float{position:relative;width:92%;margin:-60px 0 0 auto}.photo-vis{padding-bottom:0}
 }
+.ceph-panel{width:88%;border-radius:14px;overflow:hidden;background:#05080f;border:1px solid rgba(110,190,200,.18);box-shadow:0 30px 60px -25px rgba(11,18,32,.6)}
+.ceph-panel .win-bar{background:#0e1626}
+.cp-body{position:relative}
+.cp-body img{display:block;width:100%;filter:contrast(1.05) brightness(.85) sepia(.25) hue-rotate(160deg) saturate(1.4)}
+.cp-svg{position:absolute;inset:0;width:100%;height:100%}
+.cl line{stroke:#e0c27e;stroke-width:2.2}
+.fh line{stroke:#6ebec8;stroke-width:2;stroke-dasharray:8 7}
+.cpts circle{fill:rgba(5,8,15,.6);stroke:#e0c27e;stroke-width:2.4}
+.cpts text{fill:#fff;font:600 20px 'JetBrains Mono',monospace;paint-order:stroke;stroke:#05080f;stroke-width:4px}
+.disc a{color:inherit;text-decoration:underline}
+@media (max-width:900px){.ceph-panel{width:100%}}
+.ceph-panel{margin-left:auto}
+.photo-vis .card-ui.float{right:auto;left:-30px;bottom:-10px;width:52%}
+@media (max-width:900px){.photo-vis .card-ui.float{left:auto;width:100%;margin:16px 0 0}}
